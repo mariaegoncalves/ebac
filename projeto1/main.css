@@ -1,0 +1,99 @@
+*{
+    background-color: #27272a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    padding: 10px 0;
+    margin: 0;
+}
+
+header li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 25px 12px 25px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+header h1 img{
+    width: 100%;
+}
+
+.img-header{
+    margin: 0 auto;
+    align-items: center;
+    width: 75px;
+    padding: 0;
+}
+
+.navigation-container{
+    max-width: 1280px;
+    width: 100%;    
+}
+
+.navigation-container ul{
+    margin-top: 2.5%;
+    font-size: 0.95em;
+    font-weight: 100;
+    padding: 0;
+}
+
+header .navigation-container{
+    display: flex;
+    margin: 0 auto;
+}
+
+.main-container{
+    position: relative;
+    margin: 0;
+}
+
+.main-container .background{
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0px 100px 0px 100px;
+    border-radius: 9.5%;
+}
+
+.logo, .background{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    margin-top: 15%;
+    margin-left: 30%;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.container{
+
+}
+
+.news-section{
+    width: 85%;
+    margin: 20px auto;
+}
+
+.news-section .title{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.news-section .title h2{
+    font-size: 40px;
+}
