@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es6",      
+      "module": "commonjs",   
+      "outDir": "./dist",     
+      "strict": true,         
+      "esModuleInterop": true 
+    },
+    "include": [
+      "src/**/*"              // Incluir todos os arquivos TypeScript na pasta src
+    ],
+    "exclude": [
+      "node_modules"         // Excluir a pasta node_modules
+    ]
+  }
+  
